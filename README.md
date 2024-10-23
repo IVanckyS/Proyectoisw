@@ -70,6 +70,7 @@ Este proyecto está dividido en dos partes principales: el Backend y el Frontend
 │   │   ├── controllers
 │   │   │   ├── auth.controller.js
 │   │   │   └── user.controller.js
+             └── ingredient.controller.js
 │   │   ├── entity
 │   │   │   └── user.entity.js
 │   │   ├── handlers
@@ -83,9 +84,11 @@ Este proyecto está dividido en dos partes principales: el Backend y el Frontend
 │   │   │   ├── auth.routes.js
 │   │   │   ├── index.routes.js
 │   │   │   └── user.routes.js
+            └── ingredient.routes.js
 │   │   ├── services
 │   │   │   ├── auth.service.js
 │   │   │   └── user.service.js
+            └── ingredient.service.js
 │   │   ├── validations
 │   │   │   ├── auth.validation.js
 │   │   │   └── user.validation.js
@@ -114,6 +117,8 @@ Este proyecto está dividido en dos partes principales: el Backend y el Frontend
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── Table.jsx
 │   │   │   └── userOptions.jsx
+            └── AddIngredient.jsx
+            └── LowStockAlert.jsx
 │   │   ├── context
 │   │   │   └── AuthContext.jsx
 │   │   ├── helpers
